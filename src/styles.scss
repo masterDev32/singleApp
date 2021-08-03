@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+.float-right {
+  .pagination {
+    .pagination-page {
+      .page-link {
+        color: #343a40;
+      }
+    }
+    .pagination-prev {
+      .page-link {
+        color: #343a40;
+      }
+    }
+    .pagination-next {
+      .page-link {
+        color: #343a40;
+      }
+    }
+    .page-item.active .page-link {
+      background-color: #343a40;
+      border-color: #343a40;
+      color: #fff;
+    }
+  }
+}
